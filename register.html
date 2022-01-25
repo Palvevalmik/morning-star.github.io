@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+
+    <!-- Custom Styling-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Register Page</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Mor</span>ning Star</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <!-- <li><a href="">Sign Up</a></li>
+            <li><a href="">Login</a></li> -->
+            <li>
+                <a href="">
+                    <i class="fa fa-user" aria-hidden="true"></i> Morning Star
+                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+
+                </a>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="logout.html" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="auth-content">
+        <form action="register.html" method="post">
+            <h2 class="form-title">Register</h2>
+            <!-- <div class="msg success error">
+                <li>Username required</li>
+            </div> -->
+            <div>
+                <label>Username</label>
+                <input type="text" name="Username" class="text-input">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" class="text-input">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" class="text-input">
+            </div>
+            <div>
+                <label>Password conformation</label>
+                <input type="password" name="passwordconf" class="text-input">
+            </div>
+            <div>
+                <button type="submit" name="register-btn" class="btn btn-big">Register</button>
+            </div>
+            <p>or
+                <a href="login.html">Sign In</a>
+            </p>
+        </form>
+    </div>
+
+
+    <!-- footer-->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>Mor</span>ning star</h1>
+                <p>Cricbuzz is an Indian cricket news website owned by Times Internet.It features, news.</p>
+                <div class="contact">
+                    <span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 9637200202</span>
+                    <span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; info@gmail.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <a href="#">
+                        <li>Events</li>
+                    </a>
+                    <a href="#">
+                        <li>Team</li>
+                    </a>
+                    <a href="#">
+                        <li>Mentores</li>
+                    </a>
+                    <a href="#">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="#">
+                        <li>Terms and Conditions</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Email Address....">
+                    <textarea rows="4" name="message" class="text-input contact-input" placeholder="Youre message"></textarea>
+                    <button class="submit btn btn-big contact-btn">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; Morning Star | Designed By Valmik Palve
+        </div>
+    </div>
+    <!-- // footer-->
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
